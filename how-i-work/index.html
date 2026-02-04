@@ -1,613 +1,247 @@
-<!DOCTYPE html>
+<!doctype html>
 <html class="no-js" lang="zxx">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>How I Work - Jajang Irawan | UI / UX Web And Mobile Designer</title>
-    <meta name="description" content="" />
+    <title>Jajang Irawan | UI / UX Web And Mobile Designer</title>
+    <meta name="description" content="UI/UX designer with 13+ years creating web and mobile solutions. Expertise in intuitive design, prototyping, and delivering efficient digital products." />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- Place favicon.ico in the root directory -->
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="/assets/img/new/JIrawan_logofavicon_.png"
-    />
-
-    <!-- CSS here -->
-    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="/assets/css/animate.css" />
-    <link rel="stylesheet" href="/assets/css/custom-animation.css" />
-    <link rel="stylesheet" href="/assets/css/swiper-bundle.css" />
-    <link rel="stylesheet" href="/assets/css/slick.css" />
-    <link rel="stylesheet" href="/assets/css/flaticon.css" />
-    <link rel="stylesheet" href="/assets/css/meanmenu.css" />
-    <link rel="stylesheet" href="/assets/css/font-awesome-pro.css" />
-    <link rel="stylesheet" href="/assets/css/magnific-popup.css" />
-    <link rel="stylesheet" href="/assets/css/spacing.css" />
-    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="/how-i-work/" />
+    <link rel="stylesheet" href="/how-i-work/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/how-i-work/assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="/how-i-work/assets/css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="/how-i-work/assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/how-i-work/assets/css/odometer.css" />
+    <link rel="stylesheet" href="/how-i-work/assets/css/ion.rangeSlider.min.css" />
+    <link rel="stylesheet" href="/how-i-work/assets/css/effect-slicer.css" />
+    <link rel="stylesheet" href="/how-i-work/assets/css/animate.css" />
+    <link rel="stylesheet" href="/how-i-work/assets/css/defauls-spacing.css" />
+    <link rel="stylesheet" href="/how-i-work/assets/css/main.css" />
   </head>
 
   <body>
-    <!--[if lte IE 9]>
-      <p class="browserupgrade">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
-        your experience and security.
-      </p>
-    <![endif]-->
+    <!-- Preloader Start -->
+    <div id="preloader" class="preloader">
+      <div class="animation-preloader">
+        <div class="spinner"></div>
+        <div class="txt-loading"></div>
+        <p class="text-center">Loading</p>
+      </div>
+      <div class="loader">
+        <div class="row">
+          <div class="col-3 loader-section section-left">
+            <div class="bg"></div>
+          </div>
+          <div class="col-3 loader-section section-left">
+            <div class="bg"></div>
+          </div>
+          <div class="col-3 loader-section section-right">
+            <div class="bg"></div>
+          </div>
+          <div class="col-3 loader-section section-right">
+            <div class="bg"></div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <!-- class="wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s" -->
+    <!-- Start Cursor Pointer -->
+    <div class="mouse-follower">
+      <span class="cursor-outline"></span>
+      <span class="cursor-dot"></span>
+    </div>
+    <!-- End Cursor Pointer -->
 
-    <!-- tp-header-area-start -->
-    <header class="d-none d-lg-block">
+    <!-- Scroll-top -->
+    <button class="scroll__top scroll-to-target" data-target="html">
+      <i class="fa-sharp fa-regular fa-arrow-up"></i>
+    </button>
+    <!-- Scroll-top-end-->
+
+    <!-- header-search -->
+    <div class="search__popup">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="search__wrapper">
+              <div class="search__close">
+                <button type="button" class="search-close-btn">
+                  <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M17 1L1 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" ></path> <path d="M1 1L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" ></path> </svg>
+                </button>
+              </div>
+              <div class="search__form">
+                <form action="#">
+                  <div class="search__input">
+                    <input class="search-input-field" type="text" placeholder="Type keywords here" />
+                    <span class="search-focus-border"></span>
+                    <button type="submit">
+                      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M9.55 18.1C14.272 18.1 18.1 14.272 18.1 9.55C18.1 4.82797 14.272 1 9.55 1C4.82797 1 1 4.82797 1 9.55C1 14.272 4.82797 18.1 9.55 18.1Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" ></path> <path d="M19.0002 19.0002L17.2002 17.2002" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" ></path> </svg>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="search-popup-overlay"></div>
+    <!-- header-search-end -->
+
+    <!-- header-area -->
+    <header>
       <div
         id="header-sticky"
-        class="tp-header-area header-transparent pl-165 pr-165 pt-35"
+        class="td-header__area td-header-sticky-white td-header-spacing td-header-6-wrapper p-relative z-index-1"
       >
-        <div class="container-fluid">
+        <div class="container container-1750">
           <div class="row align-items-center">
-            <div class="col-xl-3 col-lg-3">
-              <div class="tp-logo">
-                <a href="/"
-                  ><img src="/assets/img/new/JIrawan_logo.png" alt=""
+            <div class="col-lg-4 col-md-4 col-sm-4 col-5">
+              <div class="tdmenu__wrap">
+                <div
+                  class="tdmenu-offcanvas-open-btn mobile-nav-toggler d-flex align-items-center justify-content-center"
+                >
+                  <span class="text mr-5"><a href="https://jajangirawan.com/">Home</a></span>
+                  <div class="tdmenu-offcanvas-open-bar">
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-5">
+              <div class="logo text-center">
+                <a class="logo-1" href="index.html"
+                  ><img data-width="96" src="/how-i-work/assets/img/logo/JIrawan_logo_white.png" alt="Logo"
+                /></a>
+                <a class="logo-2 d-none" href="index.html"
+                  ><img data-width="96" src="/how-i-work/assets/img/logo/JIrawan_logo.png" alt="Logo"
                 /></a>
               </div>
             </div>
-            <div class="col-xl-7 col-lg-7"></div>
-            <div class="col-xl-2 col-lg-2">
-              <div class="tp-menu-bar text-end">
-                <button><i class="fal fa-bars"></i></button>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-2">
+              <div class="td-header-right text-end">
+                <a href="mailto:izzi.bdg@gmail.com" class="td-btn td-btn-lg d-none d-md-inline-block td-btn-switch-animation ml-10">
+                  <span class="d-flex align-items-center justify-content-center">
+                    <span class="btn-text"> Get in Touch </span>
+                    <span class="btn-icon"><i class="fa-sharp fa-solid fa-angle-right"></i></span>
+                    <span class="btn-icon"><i class="fa-sharp fa-solid fa-angle-right"></i></span>
+                  </span>
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </header>
-    <!-- tp-header-area-end -->
 
-    <!-- mobile-menu-area -->
-    <div
-      id="header-sticky-mobile"
-      class="tp-md-menu header-transparent d-lg-none pt-40 pb-40"
-    >
-      <div class="container-fluid">
-        <div class="row align-items-center">
-          <div class="col-6">
-            <div class="tp-logo">
-              <a href="#"><img src="/assets/img/logo/logo.png" alt="" /></a>
-            </div>
-          </div>
-          <div class="col-6">
-            <div class="bar text-end">
-              <button class="tp-menu-bar" type="submit">
-                <i class="fal fa-bars"></i>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- mobile-menu-area-end -->
-
-    <!-- tp-offcanvus-area-start -->
-    <div class="tp-offcanvas-area">
-      <div class="tpoffcanvas">
-        <div class="tpoffcanvas__logo">
-          <a href="index.html">
-            <img src="/assets/img/new/JIrawan_logo-white.png" alt="" />
-          </a>
-        </div>
-        <div class="tpoffcanvas__close-btn">
-          <a class="close-btn" href="javascript:void(0)"
-            ><i class="fal fa-times-hexagon"></i
-          ></a>
-        </div>
-
-        <div class="mobile-menu"></div>
-        <div class="tpoffcanvas__contact">
-          <ul>
-            <li>
-              <i class="fas"></i> <a href="index.html" target="_blank">Home.</a>
-            </li>
-            <li>
-              <i class="fas"></i> <a href="/about-me" target="_blank">About.</a>
-            </li>
-            <li><i class="fas"></i> <a href="/how-i-work">How I work.</a></li>
-            <li>
-              <i class="fas"></i>
-              <a href="/case-studies/makasi">Study case / Makasi POS.</a>
-            </li>
-            <li>
-              <i class="fas"></i>
-              <a href="/case-studies/doctor-plus-app"
-                >Study case / Doctor plus app.</a
-              >
-            </li>
-            <li>
-              <i class="fas"></i>
-              <a href="/case-studies/tci">Study case / TCI web page.</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="tpoffcanvas__instagram d-none d-sm-block">
-          <p>Check Instagram POst</p>
-          <div class="tp-insta">
-            <div class="row">
-              <div class="col-3 col-sm-3">
-                <a
-                  href="https://www.instagram.com/jajang_irawan18/"
-                  target="_blank"
-                  ><img src="/assets/img/new/IG-1.jpg" alt=""
-                /></a>
-              </div>
-              <div class="col-3 col-sm-3">
-                <a
-                  href="https://www.instagram.com/jajang_irawan18/"
-                  target="_blank"
-                  ><img src="/assets/img/new/IG-2.jpg" alt=""
-                /></a>
-              </div>
-              <div class="col-3 col-sm-3">
-                <a
-                  href="https://www.instagram.com/jajang_irawan18/"
-                  target="_blank"
-                  ><img src="/assets/img/new/IG-3.jpg" alt=""
-                /></a>
-              </div>
-              <div class="col-3 col-sm-3">
-                <a
-                  href="https://www.instagram.com/jajang_irawan18/"
-                  target="_blank"
-                  ><img src="/assets/img/new/IG-4.jpg" alt=""
-                /></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="body-overlay"></div>
-    <!-- tp-offcanvus-area-end -->
-    <main>
-      <div class="tp-hero-area-two">
-        <div class="tp-hero-bg-circle p-relative">
-          <div class="tp-hero-light-shape-one">
-            <img src="/assets/img/hero/hero-light-1.png" alt="" />
-          </div>
-          <div class="tp-hero-light-shape-two">
-            <img src="/assets/img/hero/hero-light-2.png" alt="" />
-          </div>
-          <div class="tp-hero-light-shape-three z-index-1">
-            <img src="/assets/img/hero/Spiral.png" alt="" />
-          </div>
-          <div class="tp-hero-light-shape-four z-index-1">
-            <img src="/assets/img/hero/hero-light-2.png" alt="" />
-          </div>
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-xl-10">
-                <div class="tp-hero-content-box text-center">
-                  <h3
-                    class="tp-hero-title wow tpfadeUp"
-                    data-wow-duration=".3s"
-                    data-wow-delay=".6s"
-                  >
-                    If I Design User Interface
-                    <span class="tp-highlight"
-                      ><svg
-                        width="244"
-                        height="8"
-                        viewBox="0 0 244 8"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path d="M0 0L244 8H0V0Z" fill="#FFDC60" />
-                      </svg>
-                      <i class="tp-theme-color">My Culture </i>
-                    </span>
-                  </h3>
-                  <div
-                    class="tp-hero-img mt-20 mb-80 wow tpfadeUp"
-                    data-wow-duration=".5s"
-                    data-wow-delay=".8s"
-                  ></div>
-                  <div
-                    class="tp-hero-social-link wow tpfadeUp"
-                    data-wow-duration=".7s"
-                    data-wow-delay="1s"
-                  >
-                    <a
-                      class="tp-btn-white-brand"
-                      href="https://dribbble.com/Izzi"
-                      target="_blank"
-                      ><img
-                        class="mr-15"
-                        src="/assets/img/hero/hero-icon-1.png"
-                        alt="" />
-                      Dribbble <i class="fal fa-long-arrow-right"></i
-                    ></a>
-                    <a
-                      class="tp-btn-white-brand"
-                      href="https://www.instagram.com/jajang_irawan18/"
-                      target="_blank"
-                      ><img
-                        class="mr-15"
-                        src="/assets/img/hero/instagram_icon.png"
-                        alt="" />
-                      Instagram <i class="fal fa-long-arrow-right"></i
-                    ></a>
-                    <a
-                      class="tp-btn-white-brand"
-                      href="https://www.linkedin.com/in/jajang-irawan-50b86bbb/"
-                      target="_blank"
-                      ><img
-                        class="mr-15"
-                        src="/assets/img/hero/linkedin_icon.png"
-                        alt="" />
-                      Linkedin <i class="fal fa-long-arrow-right"></i
-                    ></a>
-                  </div>
+    <!-- header-area-end -->
+    <div id="smooth-wrapper">
+      <div id="smooth-content">
+        <main>
+          <!-- td-hero-area-start -->
+          <div class="td-hero-area td-hero-6-spacing include-bg" data-background="/how-i-work/assets/img/hero/hero-6/bg_new.jpg">
+            <div class="container">
+              <div class="td-hero-6-top pb-45 p-relative z-index-1">
+                <div class="td-hero-6-line">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- service-area-start -->
-      <div class="tp-service-area p-relative pb-130 pt-100">
-        <div class="container">
-          <div class="row">
-            <div
-              class="col-md-12 col-12 wow tpfadeUp"
-              data-wow-duration=".5s"
-              data-wow-delay=".7s"
-            >
-              <div class="tp-sv-box">
-                <div class="tp-service-item sv-2-border d-flex mb-30">
-                  <div class="tp-sv-img">
-                    <img src="/assets/img/service/brainstorming.png" alt="" />
-                  </div>
-                  <div class="tp-sv-content pl-60">
-                    <h3 class="tp-sv-title mb-35">1. Brainstorming</h3>
-                    <p class="mb-30">
-                      The first step is discussing the concept of the product
-                      with my client and discover ideas to build good product
-                      brand, who is the target of the product, who is the
-                      competitor, and how do we build the best product that
-                      reaches the market.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-md-12 col-12 wow tpfadeUp"
-              data-wow-duration=".3s"
-              data-wow-delay=".6s"
-            >
-              <div class="tp-sv-box">
-                <div class="tp-service-item sv-2-border d-flex mb-30">
-                  <div class="tp-sv-img">
-                    <img src="/assets/img/service/service-3.png" alt="" />
-                  </div>
-                  <div class="tp-sv-content pl-60">
-                    <h3 class="tp-sv-title mb-35">2. Researching and Setup</h3>
-                    <p class="mb-30">
-                      Researching what is the best product that can reach the
-                      market. Finding the styles that matches market
-                      expectation, color that represents the market/customer,
-                      competitors product, and others.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="col-md-12 col-12 wow tpfadeUp"
-              data-wow-duration=".7s"
-              data-wow-delay=".9s"
-            >
-              <div class="tp-sv-box">
-                <div class="tp-service-item sv-2-border d-flex mb-30">
-                  <div class="tp-sv-img">
-                    <img src="/assets/img/service/wireframe.png" alt="" />
-                  </div>
-                  <div class="tp-sv-content pl-60">
-                    <h3 class="tp-sv-title mb-35">
-                      3. Creating Mockups and Wireframing
-                    </h3>
-                    <p class="mb-30">
-                      After researching the styles, brands, competitors. Rough
-                      mockup will be created and also the use case will be
-                      implemented through product wireframes.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="col-md-12 col-12 wow tpfadeUp"
-              data-wow-duration=".7s"
-              data-wow-delay=".8s"
-            >
-              <div class="tp-sv-box">
-                <div class="tp-service-item sv-2-border d-flex mb-30">
-                  <div class="tp-sv-img">
-                    <img src="/assets/img/service/service-2.png" alt="" />
-                  </div>
-                  <div class="tp-sv-content pl-60">
-                    <h3 class="tp-sv-title mb-35">4. Designing the UI/UX</h3>
-                    <p class="mb-30">
-                      Creating mockups and wireframes using Figma, a powerful tool for designing intuitive and professional UI. Following best practices ensures efficiency and productivity throughout the design process. Adobe Photoshop is utilized for photo editing, while Adobe Illustrator is used to craft illustrations and vector graphics.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="col-md-12 col-12 wow tpfadeUp"
-              data-wow-duration=".7s"
-              data-wow-delay=".9s"
-            >
-              <div class="tp-sv-box">
-                <div class="tp-service-item sv-2-border d-flex mb-30">
-                  <div class="tp-sv-img">
-                    <img src="/assets/img/service/prototyping.png" alt="" />
-                  </div>
-                  <div class="tp-sv-content pl-60">
-                    <h3 class="tp-sv-title mb-35">5. Prototyping</h3>
-                    <p class="mb-30">
-                      Developing product prototypes and collaborating with team members, managers, and developers using online tools, Figma. This is to ensure that the product is in line with the design and the product is ready to be developed.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- service-area-end -->
-
-      <!-- tp-barnd-area-start -->
-      <div
-        class="tp-creative-area p-relative black-bg pt-140 pb-135 fix pb-130"
-      >
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="tp-brand-title pb-60 d-flex align-items-center">
-                <h2 class="tp-subtitle">
-                  I have helped many clients to build their product
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div class="tp-brand-sl">
-            <div class="swiper-container brand-slider-active">
-              <div class="swiper-wrapper align-items-center">
-                <div class="swiper-slide">
-                  <div class="tp-brand-icon">
-                    <img src="/assets/img/client/luqon.png" alt="" />
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="tp-brand-icon">
-                    <img src="/assets/img/client/makasi.png" alt="" />
-                  </div>
-                </div>
-
-                <div class="swiper-slide">
-                  <div class="tp-brand-icon">
-                    <img src="/assets/img/client/csone.png" alt="" />
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="tp-brand-icon">
-                    <img src="/assets/img/client/novalabs.png" alt="" />
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="tp-brand-icon">
-                    <img src="/assets/img/client/nimpos.png" alt="" />
-                  </div>
-                </div>
-
-                <div class="swiper-slide">
-                  <div class="tp-brand-icon">
-                    <img src="/assets/img/client/bizapp.png" alt="" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- tp-barnd-area-end -->
-
-      <!--testimonial-area-start -->
-      <div class="tp-testimonial-area grey-bg pt-125 pb-120 fix">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-xl-12">
-              <div class="tp-testimonial-title-box text-center pb-25">
-                <h5 class="tp-subtitle">Testimonial</h5>
-                <h2 class="tp-title">
-                  Client
-                  <span class="tp-section-highlight">
-                    feedback
-                    <svg
-                      width="253"
-                      height="11"
-                      viewBox="0 0 253 11"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M0 0L253 11H0V0Z" fill="#FFDC60" />
-                    </svg>
-                  </span>
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div class="tp-testimonial-slider-section-four">
-            <div class="swiper-container testi-slider-active-four">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide testi-slider-opacity">
-                  <div class="tp-testimonial-box">
-                    <div class="tp-testimonial-box__rating">
-                      <p>
-                        Jajang is an absolute pleasure to work with. His
-                        creativity, quality of work, and ability to meet
-                        deadlines is way above average. He is virtually a jack
-                        of all trades. Thanks so much Jajang!
-                      </p>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="td-hero-6-title-wrap ml-70 pb-100">
+                      <h2 class="td-hero-6-title wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
+                        <span>UI Design Workflow </span>
+                      </h2>
                     </div>
-                    <div
-                      class="tp-testimonial-box__info d-flex justify-content-between align-items-center"
-                    >
-                      <div
-                        class="tp-testimonial-box__testi-slide-img d-flex align-items-center"
-                      >
-                        <img
-                          class="mr-25"
-                          src="/assets/img/new/testimonials/andrew-gazdecki.png"
-                          alt=""
-                        />
-                        <div class="tp-testimonial-box__testi-title">
-                          <span class="testi-heading">Andrew Gazdecki</span>
-                          <span>Founder of Biznessapps</span>
+                  </div>
+                  <div class="col-12 wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
+                    <div class="td-hero-6-tag">
+                      <ul>
+                        <li>
+                          <a href="#">Streamlining and accelerating the workflow.</a>
+                        </li>
+                        <li><a href="#">|</a></li>
+                        <li>
+                          <a href="#">Optimizing for ease and efficiency.</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid container-1680 wow fadeInUp" data-wow-delay=".9s" data-wow-duration="1s">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="swiper-container td-hero-6-slider">
+                    <div class="swiper-wrapper slide-transtion">
+                      <div class="swiper-slide">
+                        <div class="td-hero-6-thumb">
+                          <img src="/how-i-work/assets/img/hero/hero-6/thumb.jpg" alt="" />
                         </div>
                       </div>
-                      <div
-                        class="tp-testimonial-box__testi-brand d-none d-md-block"
-                      >
-                        <img
-                          src="/assets/img/new/testimonials/logo-bizapps.svg"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide testi-slider-opacity">
-                  <div class="tp-testimonial-box">
-                    <div class="tp-testimonial-box__rating">
-                      <p>
-                        WJajang was fantastic to work with. He's a very good
-                        designer and always made sure I was taken care off.
-                        Despite my many changes that i'm sure drove him crazy,
-                        Jajang went above and beyond to make sure I was
-                        satisfied. Excellent communication with Jajang and an
-                        overall wonderful experience. Will hire again!
-                      </p>
-                    </div>
-                    <div
-                      class="tp-testimonial-box__info d-flex justify-content-between align-items-center"
-                    >
-                      <div
-                        class="tp-testimonial-box__testi-slide-img d-flex align-items-center"
-                      >
-                        <img
-                          class="mr-25"
-                          src="/assets/img/new/testimonials/MICHAEL_VELASQUEZ.png"
-                          alt=""
-                        />
-                        <div class="tp-testimonial-box__testi-title">
-                          <span class="testi-heading">MICHAEL VELASQUEZ</span>
-                          <span>Founder at AppTrends</span>
+                      <div class="swiper-slide">
+                        <div class="td-hero-6-thumb">
+                          <img src="/how-i-work/assets/img/hero/hero-6/thumb-2.jpg" alt="" />
                         </div>
                       </div>
-                      <div
-                        class="tp-testimonial-box__testi-brand d-none d-md-block"
-                      >
-                        <img
-                          src="/assets/img/new/testimonials/apptrens_logo.jpg"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide testi-slider-opacity">
-                  <div class="tp-testimonial-box">
-                    <div class="tp-testimonial-box__rating">
-                      <p>
-                        Jajang worked with a very tight deadline I had and
-                        delivered excellent work. He was patient and easy to
-                        work with and his design and prototyping skills are
-                        above average. I was very pleased. I will certainly use
-                        him again for future website work.
-                      </p>
-                    </div>
-                    <div
-                      class="tp-testimonial-box__info d-flex justify-content-between align-items-center"
-                    >
-                      <div
-                        class="tp-testimonial-box__testi-slide-img d-flex align-items-center"
-                      >
-                        <img
-                          class="mr-25"
-                          src="/assets/img/new/testimonials/Wilneida_Negron.png"
-                          alt=""
-                        />
-                        <div class="tp-testimonial-box__testi-title">
-                          <span class="testi-heading">Wilneida Negron</span>
-                          <span>CEO of App Lib</span>
+                      <div class="swiper-slide">
+                        <div class="td-hero-6-thumb">
+                          <img src="/how-i-work/assets/img/hero/hero-6/thumb-3.jpg" alt="" />
                         </div>
                       </div>
-                      <div
-                        class="tp-testimonial-box__testi-brand d-none d-md-block"
-                      >
-                        <img src="/assets/img/testimonial/" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide testi-slider-opacity">
-                  <div class="tp-testimonial-box">
-                    <div class="tp-testimonial-box__rating">
-                      <p>
-                        Jajang is an extraordinary mobile and web designer! He
-                        is focused on every corner of UI experience, thinking
-                        out of the box and challenging every idea and concept in
-                        order to bring the best design! We have worked on a few
-                        projects together and every time he was on the top of
-                        the task! I was surprised how easily he could make
-                        extraordinary UI experience from the scratch! Open
-                        minded, polite, communicative and always ready to go
-                        step ahead to satisfy customer’s needs.
-                      </p>
-                    </div>
-                    <div
-                      class="tp-testimonial-box__info d-flex justify-content-between align-items-center"
-                    >
-                      <div
-                        class="tp-testimonial-box__testi-slide-img d-flex align-items-center"
-                      >
-                        <img
-                          class="mr-25"
-                          src="/assets/img/new/testimonials/Miloš_Čalija.png"
-                          alt=""
-                        />
-                        <div class="tp-testimonial-box__testi-title">
-                          <span class="testi-heading">Miloš Čalija</span>
-                          <span>CEO of Pigeon Mail App</span>
+                      <div class="swiper-slide">
+                        <div class="td-hero-6-thumb">
+                          <img src="/how-i-work/assets/img/hero/hero-6/thumb-4.jpg" alt="" />
                         </div>
                       </div>
-                      <div
-                        class="tp-testimonial-box__testi-brand d-none d-md-block"
-                      >
-                        <img
-                          src="/assets/img/new/testimonials/pigeon_mailapp_.png"
-                          alt=""
-                        />
+                      <div class="swiper-slide">
+                        <div class="td-hero-6-thumb">
+                          <img src="/how-i-work/assets/img/hero/hero-6/thumb-5.jpg" alt="" />
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="td-hero-6-thumb">
+                          <img src="/how-i-work/assets/img/hero/hero-6/thumb-6.jpg" alt="" />
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="td-hero-6-thumb">
+                          <img src="/how-i-work/assets/img/hero/hero-6/thumb-7.jpg" alt="" />
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="td-hero-6-thumb">
+                          <img src="/how-i-work/assets/img/hero/hero-6/thumb-8.jpg" alt="" />
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="td-hero-6-thumb">
+                          <img src="/how-i-work/assets/img/hero/hero-6/thumb-9.jpg" alt="" />
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="td-hero-6-thumb">
+                          <img src="/how-i-work/assets/img/hero/hero-6/thumb-10.jpg" alt="" />
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="td-hero-6-thumb">
+                          <img src="/how-i-work/assets/img/hero/hero-6/thumb-11.jpg" alt="" />
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="td-hero-6-thumb">
+                          <img src="/how-i-work/assets/img/hero/hero-6/thumb-12.jpg" alt="" />
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="td-hero-6-thumb">
+                          <img src="/how-i-work/assets/img/hero/hero-6/thumb-13.jpg" alt="" />
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -615,163 +249,647 @@
               </div>
             </div>
           </div>
-          <div class="testimonial-slider-dots-four text-center mt-50"></div>
-        </div>
-      </div>
-      <!-- testimonial-area-end -->
+          <!-- td-hero-area-end -->
 
-      <!-- news-letter-area-start -->
-      <div class="tp-news-area black-bg fix">
-        <div class="container">
-          <div class="row align-items-end flex-wrap-reverse flex-md-wrap">
-            <div class="col-xl-6 col-lg-6 col-md-6">
-              <div
-                class="tp-newsletter-left-img pt-60 p-relative wow tpfadeLeft"
-                data-wow-duration=".3s"
-                data-wow-delay=".5s"
-              >
-                <div class="z-index">
-                  <img src="/assets/img/new/ig.jpg" alt="" />
+          <div class="row align-items-center" style="background: #1c1d1f">
+            <div class="col-lg-6">
+              <div class="td-service-pin-thumb">
+                <img class="w-100" src="/how-i-work/assets/img/photo/work.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="td-service-pin-content-inner pt-10 pb-10 ml-50">
+                <h2 style="color: aliceblue">Asynchronous Communication</h2>
+                <p>
+                  I prioritize asynchronous workflows, which allows me to provide clear, documented updates rather than
+                  frequent meetings
+                </p>
+                <hr />
+
+                <div class="td-service-pin-content ml-15 pt-15">
+                  <p class="mb-20" style="font-size: 30px">5 reasons to work async</p>
+                  <ul>
+                    <li>More deep-focus time (fewer meetings, fewer context switches).</li>
+                    <li>Clearer requirements (written/recorded once, less misinterpretation)</li>
+                    <li>Works across time zones (progress continues while others are offline)</li>
+                    <li>Better decision trail (searchable history: why we chose X</li>
+                    <li>More inclusive collaboration (people can think and respond thoughtfully).</li>
+                  </ul>
+
+                  <p class="mb-20 pt-20" style="font-size: 30px">3 async tools for a UI designer</p>
+                  <ul>
+                    <li>Loom (or Screen Studio) — record short walkthroughs of flows + rationale.</li>
+                    <li>Clearer requirements (written/recorded once, less misinterpretation)</li>
+                    <li>Figma — comments, prototypes, and async design reviews in-context.</li>
+                    <li>Notion (or Confluence/Google Docs) — lightweight specs, decision logs, and handoff notes.</li>
+                  </ul>
                 </div>
-                <div class="news-shape-img">
+              </div>
+            </div>
+          </div>
+
+          <!-- td-about-area-start -->
+          <div class="td-about-area pt-140 pb-125">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-1">
+                  <div class="td-about-6-subtitle mb-20">
+                    <span class="td-section-6-subtitle">1.</span>
+                  </div>
+                </div>
+                <div class="col-lg-11">
+                  <div class="td-about-6-title-wrap mb-50">
+                    <h2 class="td-section-6-bigtitle td-text-opacity">INTAKE & REQUIREMENT GATHERING</h2>
+                    <p class="td-section-6-text">(Client → UI Designer)</p>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="td-about-6-thumb text-end p-relative z-index-1 mb-30">
+                    <img src="/how-i-work/assets/img/about/about-6/thumb.jpg" alt="" />
+                  </div>
                   <img
-                    src="/assets/img/creative/creative-circle-img.png"
+                    class="shape td-live-anim-spin d-none d-lg-inline-block"
+                    src="/how-i-work/assets/img/about/shape.png"
                     alt=""
                   />
                 </div>
-              </div>
-            </div>
-            <div class="col-xl-6 col-lg-6 col-md-6">
-              <div
-                class="tp-news-letter-section-box-two pt-135 pb-145 wow tpfadeUp"
-                data-wow-duration=".5s"
-                data-wow-delay=".7s"
-              >
-                <h5 class="tp-subtitle">know more about me</h5>
-                <h2 class="tp-title tp-white-text pb-10">
-                  Hi,👋 I am experts in every aspect lifecycle
-                </h2>
-                <a
-                  class="tp-btn-border"
-                  href="https://drive.google.com/file/d/1Oi2Ynig6P45eipphHuqKZNNgxbRqD1Vp/view?usp=sharing"
-                  target="_blank"
-                  >Download CV <i class="far fa-download"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- news-letter-area-end -->
-    </main>
 
-    <!--<footer> -->
-    <footer class="p-relative">
-      <div class="tp-footer-area pt-120 p-relative">
-        <div class="tp-footer-shape-one">
-          <img src="/assets/img/creative/creative-hand.png" alt="" />
-        </div>
-        <div class="tp-footer-shape-two">
-          <img src="/assets/img/hero/idea.png" alt="" />
-        </div>
-        <div class="container">
-          <div class="row">
-            <div
-              class="col-xl-12 wow tpfadeUp"
-              data-wow-duration=".3s"
-              data-wow-delay=".5s"
-            >
-              <div class="footer-widget-info text-center">
-                <h2 class="tp-footer-title pb-15">
-                  Let’s build something together
-                </h2>
-                <p>
-                  I love to bring happiness through providing the best design
-                  and user experience
-                </p>
-                <a
-                  class="tp-btn-yellow mb-50"
-                  href="https://join.skype.com/invite/ispodeJW6vJkl"
-                  target="_blank"
-                  >Let's Talk<i class="far fa-arrow-right"></i
-                ></a>
-                <p class="right-receved">
-                  © 2023 Jajang Irawan , All Right Receved
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="tp-copyright-bottom wow tpfadeUp"
-            data-wow-duration=".5s"
-            data-wow-delay=".7s"
-          >
-            <div class="row align-items-center">
-              <div class="col-xl-4 col-lg-4 col-md-12 col-12">
-                <div
-                  class="tp-copyright-logo-box text-md-center text-center text-lg-start mb-30"
-                >
-                  <div class="tp-copyright-logo">
-                    <a href="/"
-                      ><img src="/assets/img/new/JIrawan_logo.png" alt=""
-                    /></a>
+                <div class="col-lg-6">
+                  <div class="td-about-6-author ml-115 mb-30">
+                    <div class="td-about-6-author-top mb-40">
+                      <h3 class="mb-15">Tools</h3>
+                      <img src="/how-i-work/assets/img/logo/logo_1.png" alt="" />
+                    </div>
+
+                    <div class="td-about-6-author-top mb-40">
+                      <h3 class="mb-15">
+                        Standardized Brief Submission:
+                        <br />
+                        Clients fill out a structured form with
+                      </h3>
+                      <p class="mb-25">
+                        - Business goals <br />
+                        - User personas <br />
+                        - Required features & functionality<br />
+
+                        - Design references & inspirations
+                      </p>
+                    </div>
+                    <div class="td-about-6-author-top mb-40">
+                      <h3 class="mb-15">Auto-generated task creation:</h3>
+                      <p class="mb-25">Integrate with Asana/Trello to create design tasks from form responses.</p>
+                    </div>
+
+                    <div class="td-about-6-author-top mb-40">
+                      <h3 class="mb-15">Pre-set expectations:</h3>
+                      <p class="mb-25">Define timelines, deliverables, and revision scope upfront.</p>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="col-xl-5 col-md-5 col-sm-5">
-                <div
-                  class="tp-cpoyright-menu text-md-start text-center text-lg-center mb-20"
-                >
-                  <a href="#">Home</a>
-                  <a href="/about-me">About Me</a>
-                  <a href="/how-i-work">How I Work</a>
+            </div>
+          </div>
+          <!-- td-about-area-end -->
+
+          <!-- td-service-6-area-start -->
+          <div class="td-service-6-area">
+            <div class="container">
+              <div class="row align-items-end">
+                <div class="col-lg-9">
+                  <div class="td-service-6-title-wrap mb-30">
+                    <span class="td-section-6-subtitle mb-20 d-inline-block">2.</span>
+                    <h2 class="td-section-6-bigtitle td-text-opacity">WIREFRAMING & <br />INITIAL CONCEPT</h2>
+                  </div>
                 </div>
-              </div>
-              <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                <div
-                  class="tp-copyright-social tp-copyright-social-two text-center text-lg-end mb-30"
-                >
-                  <a
-                    href="https://www.linkedin.com/in/jajang-irawan-50b86bbb/"
-                    target="_blank"
-                    ><i class="fab fa-linkedin-in"></i
-                  ></a>
-                  <a href="https://dribbble.com/Izzi" target="_blank"
-                    ><i class="fab fa-dribbble" target="_blank"></i
-                  ></a>
-                  <a
-                    href="https://www.instagram.com/jajang_irawan18/"
-                    target="_blank"
-                    ><i class="fab fa-instagram"></i
-                  ></a>
+                <div class="col-lg-3">
+                  <div class="td-service-6-title-text mr-80 mb-35">
+                    <p class="td-section-6-text">(UI Designer → Client)</p>
+                  </div>
+                </div>
+
+                <div class="col-12 pt-55">
+                  <div class="td-service-6-item">
+                    <div class="row">
+                      <div class="col-lg-3">
+                        <div class="td-service-6-item-title mb-15">
+                          <span class="d-inline-block mr-80"> </span>
+                          <h3>Tools</h3>
+                        </div>
+                      </div>
+                      <div class="col-lg-8">
+                        <div class="td-service-6-text mb-5">
+                          <img src="/how-i-work/assets/img/logo/logo_2.png" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="td-service-6-item">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="td-service-6-item-title mb-15">
+                          <span class="d-inline-block mr-80">-</span>
+                          <h3>
+                            UI designer creates
+                            <span style="color: #79e668; font-size: 30px">low-fidelity wireframes</span>
+                            with clear annotations.
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="td-service-6-item">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="td-service-6-item-title mb-15">
+                          <span class="d-inline-block mr-80">-</span>
+                          <h3>
+                            Uploads to
+                            <span style="color: #79e668; font-size: 30px">Figma</span>
+                            for client viewing and commenting.
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="td-service-6-item">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="td-service-6-item-title mb-15">
+                          <span class="d-inline-block mr-80">-</span>
+                          <h3>
+                            Clients provide feedback asynchronously via Figma comments or a structured feedback form.
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+          <!-- td-service-6-area-end -->
+
+          <!-- td-portfolio-area-start -->
+          <div class="td-portfolio-area pt-150 pb-115">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-1">
+                  <div class="td-portfolio-6-subtitle mb-20">
+                    <span class="td-section-6-subtitle">3.</span>
+                  </div>
+                </div>
+                <div class="col-lg-11">
+                  <div class="td-portfolio-6-title-wrap mb-50 ml-80">
+                    <h2 class="td-section-6-bigtitle td-text-opacity">HIGH-FIDELITY DESIGN & PROTOTYPING</h2>
+                    <div class="td-service-6-title-text mr-80 mb-35">
+                      <p class="td-section-6-text">(UI Designer → Client)</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-5">
+                  <div
+                    class="td-portfolio-6-thumb-wrap mt-90 mr-80 mb-40 p-relative z-index-1 wow fadeInLeft"
+                    data-wow-delay=".4s"
+                    data-wow-duration="1s"
+                  >
+                    <h2 class="td-portfolio-6-transparent">TOOLS</h2>
+                    <div class="td-portfolio-6-thumb ml-110">
+                      <div class="roun fix mb-25 p-relative">
+                        <img class="" src="/how-i-work/assets/img/logo/figma.png" alt="" />
+
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M1 13L13 1" stroke-linecap="round" stroke-linejoin="round" /> <path d="M1 1H13V13" stroke-linecap="round" stroke-linejoin="round" /> </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <div class="td-about-6-author ml-115 mb-30">
+                    <div class="td-about-6-author-top mb-30">
+                      <h3 class="mb-30">
+                        - Create polished, interactive prototypes in
+                        <span style="color: #79e668">Figma</span>
+                      </h3>
+                    </div>
+                    <div class="td-about-6-author-top mb-30">
+                      <h3 class="mb-30">
+                        - Add
+                        <span style="color: #79e668">interactive flows</span>
+                        to mimic real usage.
+                      </h3>
+                    </div>
+                    <div class="td-about-6-author-top mb-30">
+                      <h3 class="mb-30">
+                        - Clients review using Figma’s comment system or a custom form with predefined feedback prompts.
+                      </h3>
+                    </div>
+
+                    <div class="td-about-6-author-top mb-30">
+                      <h3 class="mb-30">
+                        - Set a
+                        <span style="color: #79e668">fixed review period</span>
+                        to keep the timeline moving.
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- td-portfolio-area-end -->
+
+          <!-- td-service-6-area-start -->
+          <div class="td-service-6-area">
+            <div class="container">
+              <div class="row align-items-end">
+                <div class="col-lg-9">
+                  <div class="td-service-6-title-wrap mb-30">
+                    <span class="td-section-6-subtitle mb-20 d-inline-block">4.</span>
+                    <h2 class="td-section-6-bigtitle td-text-opacity">ITERATIONS & FINAL APPROVAL</h2>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="td-service-6-title-text mr-80 mb-35">
+                    <p class="td-section-6-text">(Client → UI Designer)</p>
+                  </div>
+                </div>
+
+                <div class="col-12 pt-55">
+                  <div class="td-service-6-item">
+                    <div class="row">
+                      <div class="col-lg-3">
+                        <div class="td-service-6-item-title mb-15">
+                          <span class="d-inline-block mr-80">🛠️ </span>
+                          <h3>Tools</h3>
+                        </div>
+                      </div>
+                      <div class="col-lg-8">
+                        <div class="td-service-6-text mb-5">
+                          <img src="/how-i-work/assets/img/logo/logo_3.png" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row pt-40 mb-30">
+                    <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay=".4s" data-wow-duration="1s">
+                      <div class="td-pricing-6-wrap">
+                        <div class="td-pricing-6-top">
+                          <p class="para">
+                            Apply feedback, document changes, and record a
+                            <span style="color: #79e668">walkthrough video</span>
+                            (Loom) to explain updates. <br />
+                            <br />
+                            <br />
+                            <br />
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".4s" data-wow-duration="1s">
+                      <div class="td-pricing-6-wrap mb-30">
+                        <div class="td-pricing-6-top">
+                          <p class="para">
+                            Review and approve deliverables on your own schedule. I provide final designs in Figma for
+                            your feedback, with formal approvals tracked seamlessly via Jira, Trello, or your preferred
+                            project management tool.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- td-portfolio-area-start -->
+          <div class="td-portfolio-area pt-150 pb-115">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-1">
+                  <div class="td-portfolio-6-subtitle mb-20">
+                    <span class="td-section-6-subtitle">5.</span>
+                  </div>
+                </div>
+                <div class="col-lg-11">
+                  <div class="td-portfolio-6-title-wrap mb-50 ml-80">
+                    <h2 class="td-section-6-bigtitle td-text-opacity">DEVELOPER HANDOFF</h2>
+                    <div class="td-service-6-title-text mr-80 mb-35">
+                      <p class="td-section-6-text">(UI Designer → Developers)</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-5">
+                  <div
+                    class="td-portfolio-6-thumb-wrap mt-90 mr-80 mb-40 p-relative z-index-1 wow fadeInLeft"
+                    data-wow-delay=".4s"
+                    data-wow-duration="1s"
+                  >
+                    <h2 class="td-portfolio-6-transparent">TOOLS</h2>
+                    <div class="td-portfolio-6-thumb ml-110">
+                      <div class="roun fix mb-25 p-relative">
+                        <img class="" src="/how-i-work/assets/img/logo/logo_4.png" alt="" />
+
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M1 13L13 1" stroke-linecap="round" stroke-linejoin="round" /> <path d="M1 1H13V13" stroke-linecap="round" stroke-linejoin="round" /> </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <div class="td-about-6-author ml-115 mb-30">
+                    <div class="td-about-6-author-top mb-30">
+                      <h3 class="mb-30">
+                        - Provide assets and specs via
+                        <span style="color: #79e668">Figma Dev Mode</span>
+                        or
+                        <span style="color: #79e668">Zeplin</span>
+                        (if used internally).
+                      </h3>
+                    </div>
+                    <div class="td-about-6-author-top mb-30">
+                      <h3 class="mb-30">
+                        - Include a
+                        <span style="color: #79e668">style guide and component library</span>
+                        for consistency.
+                      </h3>
+                    </div>
+                    <div class="td-about-6-author-top mb-30">
+                      <h3 class="mb-30">
+                        - Share a
+                        <span style="color: #79e668">recorded handoff video (Loom)</span>
+                        to walk developers through the design.
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- td-portfolio-area-end -->
+
+          <!-- td-video-area-start -->
+          <div class="td-video-area include-bg" data-background="/how-i-work/assets/img/video/video-6/bg.jpg">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="td-video-6-wrap text-end">
+                    <h4 class="td-hero-6-title wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
+                      <a href=""><span class="td-hero-2-title"> Let's Talk 👋🏻 </span></a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- td-video-area-end -->
+
+          <!-- td-pricing-area-start -->
+          <div class="td-pricing-area pt-155 pb-130">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-xxl-12 col-xl-12 col-lg-12">
+                  <div class="td-pricing-6-title-wrap text-center mb-65">
+                    <h2 class="td-section-6-bigtitle td-text-opacity">
+                      WHY THIS <br />
+                      WORKFLOW WORKS
+                    </h2>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="td-counter-area td-counter-2-wrap pt-10 pb-160">
+                  <div class="container">
+                    <div class="row gx-0">
+                      <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="td-counter-4-item p-relative">
+                          <h2 class="pb-15">
+                            <img src="/how-i-work/assets/img/hero/icon/icon_structure.png" alt="" />
+                          </h2>
+                          <div class="d-flex align-items-center justify-content-between">
+                            <h5 class="position">
+                              Fully asynchronous and structured
+                              <br />
+                              <br />
+                            </h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="td-counter-4-item p-relative">
+                          <h2 class="pb-15">
+                            <img src="/how-i-work/assets/img/hero/icon/icon_comment_feedback.png" alt="" />
+                          </h2>
+                          <div class="d-flex align-items-center justify-content-between">
+                            <h5 class="position">
+                              Clear feedback loops using comments/forms
+                              <br /><br />
+                            </h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="td-counter-4-item p-relative">
+                          <h2 class="pb-15">
+                            <img src="/how-i-work/assets/img/hero/icon/icon_visual.png" alt="" />
+                          </h2>
+                          <div class="d-flex align-items-center justify-content-between">
+                            <h5 class="position">
+                              Reduced ambiguity through visual annotations and video walkthroughs
+                            </h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="td-counter-4-item p-relative">
+                          <h2 class="pb-15">
+                            <img src="/how-i-work/assets/img/hero/icon/icon_document.png" alt="" />
+                          </h2>
+                          <div class="d-flex align-items-center justify-content-between">
+                            <h5 class="position">Efficient handoff with all specs and documentation in one place</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- td-pricing-area-end -->
+
+          <!-- td-testimonial-area-start -->
+          <div class="td-testimonial-area td-testimonial-6-bg pt-155 pb-160 mb-100">
+            <div class="container">
+              <div class="row align-items-end">
+                <div class="col-lg-8">
+                  <div class="td-testimonial-6-wrap">
+                    <div class="td-testimonial-6-title-wrap mb-55">
+                      <span class="td-section-6-subtitle d-inline-block mb-15">TESTIMONIALS</span>
+                      <h2 class="title">CLIENTS FEEDBACK</h2>
+                    </div>
+                    <div class="swiper-container td-testimonial-6-content-active">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <div class="td-testimonial-6-text">
+                            <p class="mb-40">
+                              Jajang is an absolute pleasure to work with. His creativity, quality of work, and ability
+                              to meet deadlines is way above average. He is virtually a jack of all trades. Thanks so
+                              much Jajang!
+                            </p>
+                            <div class="td-testimonial-6-author">
+                              <span class="position">Founder of Biznessapps</span>
+                              <h6 class="name">Andrew Gazdecki</h6>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="td-testimonial-6-text">
+                            <p class="mb-40">
+                              Jajang was fantastic to work with. He's a very good designer and always made sure I was
+                              taken care off. Despite my many changes that i'm sure drove him crazy, Jajang went above
+                              and beyond to make sure I was satisfied. Excellent communication with Jajang and an
+                              overall wonderful experience. Will hire again!
+                            </p>
+                            <div class="td-testimonial-6-author">
+                              <span class="position">Founder at AppTrends</span>
+                              <h6 class="name">MICHAEL VELASQUEZ</h6>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="td-testimonial-6-text">
+                            <p class="mb-40">
+                              Jajang worked with a very tight deadline I had and delivered excellent work. He was
+                              patient and easy to work with and his design and prototyping skills are above average. I
+                              was very pleased. I will certainly use him again for future website work.
+                            </p>
+                            <div class="td-testimonial-6-author">
+                              <span class="position">CEO of App Lib</span>
+                              <h6 class="name">Wilneida Negron</h6>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="td-testimonial-6-slider">
+                    <div class="swiper-container td-testimonial-6-thumb-active">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <div class="td-testimonial-bottom-thumb">
+                            <img src="/how-i-work/assets/img/testimonial/tes-6/andrew-gazdecki.png" alt="" />
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="td-testimonial-bottom-thumb">
+                            <img src="/how-i-work/assets/img/testimonial/tes-6/MICHAEL_VELASQUEZ.png" alt="" />
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="td-testimonial-bottom-thumb">
+                            <img src="/how-i-work/assets/img/testimonial/tes-6/Wilneida_Negron.png" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- td-testimonial-area-end -->
+        </main>
+
+        <!-- footer-area-start -->
+        <footer>
+          <!-- td-cta-area-start -->
+          <div class="td-cta-area">
+            <div class="container">
+              <div class="col-lg-12">
+                <div
+                  class="td-cta-wrap p-relative z-index-1 text-center pt-135 pb-135 include-bg"
+                  data-background="/how-i-work/assets/img/cta/bg.jpg"
+                >
+                  <img class="td-cta-shape d-none d-xl-block" src="/how-i-work/assets/img/cta/cta.png" alt="" />
+                  <h2 class="title p-relative d-inline-block">
+                    <img class="td-cta-shape-2 d-none d-md-block" src="/how-i-work/assets/img/cta/cta-2.png" alt="" />
+                    <a class="td-text-invert" href="https://jajangirawan.com/">
+                      HAVE A<br />
+                      PROJECTS<br />
+                      IN MINDS
+                    </a>
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- td-cta-area-end -->
+
+          <div class="td-footer-area td-footer-spacing black-bg">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <div class="td-footer-bottom">
+                    <div class="row align-items-center">
+                      <div class="col-lg-6 col-md-8">
+                        <div class="td-footer-copyright">
+                          <p>
+                            © 2026
+                            <a href="https://jajangirawan.com/">Jajang Irawan</a>
+                            All Rights Reserved.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-4">
+                        <div class="td-footer-social text-md-end mb-20">
+                          <a href="#">
+                            <svg width="13" height="13" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" > <path d="M9.33161 6.77486L15.1688 0H13.7856L8.71722 5.8826L4.66907 0H0L6.12155 8.89546L0 16H1.38336L6.73581 9.78785L11.0109 16H15.68L9.33148 6.77486H9.33187H9.33161ZM7.43696 8.97374L6.81669 8.088L1.88171 1.03969H4.00634L7.98902 6.72789L8.60929 7.61362L13.7863 15.0074H11.6616L7.43709 8.974V8.97361L7.43696 8.97374Z" fill="currentColor" /> </svg>
+                          </a>
+                          <a href="#">
+                            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" > <path d="M17 8.5C17 3.80558 13.1944 0 8.5 0C3.80558 0 0 3.80558 0 8.5C0 12.7426 3.10833 16.2591 7.17188 16.8967V10.957H5.01367V8.5H7.17188V6.62734C7.17188 4.49703 8.44087 3.32031 10.3825 3.32031C11.3124 3.32031 12.2852 3.48633 12.2852 3.48633V5.57813H11.2133C10.1574 5.57813 9.82812 6.23334 9.82812 6.90554V8.5H12.1855L11.8087 10.957H9.82812V16.8967C13.8917 16.2591 17 12.7426 17 8.5Z" fill="currentColor" /> </svg>
+                          </a>
+                          <a href="#">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" > <path d="M11.5 1H4.5C2.567 1 1 2.567 1 4.5V11.5C1 13.433 2.567 15 4.5 15H11.5C13.433 15 15 13.433 15 11.5V4.5C15 2.567 13.433 1 11.5 1Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /> <path d="M10.7963 7.55921C10.8827 8.14178 10.7832 8.73676 10.5119 9.25952C10.2407 9.78228 9.81148 10.2062 9.28542 10.471C8.75935 10.7358 8.16319 10.8279 7.58173 10.7344C7.00027 10.6408 6.46311 10.3663 6.04667 9.94982C5.63022 9.53338 5.35569 8.99622 5.26213 8.41476C5.16856 7.8333 5.26073 7.23714 5.52551 6.71107C5.79029 6.18501 6.21421 5.75583 6.73697 5.48458C7.25973 5.21333 7.85471 5.11382 8.43728 5.20021C9.03152 5.28833 9.58167 5.56524 10.0065 5.99003C10.4313 6.41482 10.7082 6.96496 10.7963 7.55921Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /> <path d="M11.8477 4.15039H11.8577" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /> </svg>
+                          </a>
+                          <a href="#">
+                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" > <path d="M10.2579 4.7373C11.5141 4.7373 12.7188 5.23632 13.6071 6.12458C14.4954 7.01283 14.9944 8.21757 14.9944 9.47375V14.9996H11.8367V9.47375C11.8367 9.05502 11.6704 8.65344 11.3743 8.35736C11.0782 8.06127 10.6767 7.89493 10.2579 7.89493C9.8392 7.89493 9.43762 8.06127 9.14154 8.35736C8.84545 8.65344 8.67911 9.05502 8.67911 9.47375V14.9996H5.52148V9.47375C5.52148 8.21757 6.0205 7.01283 6.90876 6.12458C7.79701 5.23632 9.00174 4.7373 10.2579 4.7373Z" fill="currentColor" /> <path d="M3.15763 5.52734H0V15.0002H3.15763V5.52734Z" fill="currentColor" /> <path d="M1.57881 3.15763C2.45077 3.15763 3.15763 2.45077 3.15763 1.57881C3.15763 0.706859 2.45077 0 1.57881 0C0.706859 0 0 0.706859 0 1.57881C0 2.45077 0.706859 3.15763 1.57881 3.15763Z" fill="currentColor" /> </svg>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- footer-area-end -->
       </div>
-    </footer>
-    <!-- footer-area-end -->
+    </div>
 
-    <!-- backto-top-area-start -->
-    <button class="scroll-top scroll-to-target d-md-none" data-target="html">
-      <i class="far fa-angle-double-up"></i>
-    </button>
-    <!-- backto-top-area-end -->
-
-    <!-- JS here -->
-    <script src="/assets/js/jquery.js"></script>
-    <script src="/assets/js/waypoints.js"></script>
-    <script src="/assets/js/bootstrap.bundle.min.js"></script>
-    <script src="/assets/js/swiper-bundle.js"></script>
-    <script src="/assets/js/slick.js"></script>
-    <script src="/assets/js/magnific-popup.js"></script>
-    <script src="/assets/js/counterup.js"></script>
-    <script src="/assets/js/wow.js"></script>
-    <script src="/assets/js/meanmenu.js"></script>
-    <script src="/assets/js/isotope-pkgd.js"></script>
-    <script src="/assets/js/imagesloaded-pkgd.js"></script>
-    <script src="/assets/js/ajax-form.js"></script>
-    <script src="/assets/js/main.js"></script>
+    <script src="/how-i-work/assets/js/vendor/jquery.js"></script>
+    <script src="/how-i-work/assets/js/bootstrap.min.js"></script>
+    <script src="/how-i-work/assets/js/jsap/gsap.js"></script>
+    <script src="/how-i-work/assets/js/jsap/gsap-scroll-smoother.js"></script>
+    <script src="/how-i-work/assets/js/jsap/gsap-scroll-trigger.js"></script>
+    <script src="/how-i-work/assets/js/jsap/gsap-scroll-to-plugin.js"></script>
+    <script src="/how-i-work/assets/js/jsap/gsap-split-text.js"></script>
+    <script src="/how-i-work/assets/js/isotope.pkgd.min.js"></script>
+    <script src="/how-i-work/assets/js/ion.rangeSlider.min.js"></script>
+    <script src="/how-i-work/assets/js/effect-slicer.js"></script>
+    <script src="/how-i-work/assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="/how-i-work/assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="/how-i-work/assets/js/jquery.odometer.min.js"></script>
+    <script src="/how-i-work/assets/js/jquery-appear.js"></script>
+    <script src="/how-i-work/assets/js/swiper-bundle.min.js"></script>
+    <script src="/how-i-work/assets/js/nice-select.js"></script>
+    <script src="/how-i-work/assets/js/wow.js"></script>
+    <script src="/how-i-work/assets/js/ajax-form.js"></script>
+    <script src="/how-i-work/assets/js/main.js"></script>
   </body>
 </html>
